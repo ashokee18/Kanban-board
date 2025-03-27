@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kanban board</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
    <div class="container"> 
-        <div class="board">
+        <div id ="todo-board" class="board">
             <h4>Todo</h4>
-            <p class="item">Learn js</p>
-            <p class="item">Learn CSS</p>
+             
+                <p class="item" draggable="true">Learn js</p>
+                <p class="item">Learn CSS</p>
+            
+            
         </div>
         <div class="board">
             <h4>In Progress</h4>
@@ -19,8 +22,8 @@
         <div class="board">
             <h4>Done</h4>
         </div>
-        
-         <div>hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii</div>
    </div> 
+   <button id="add-task-button">Add task</button>
+   <script src="script.js"></script>
 </body>
 </html>
