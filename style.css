@@ -24,19 +24,35 @@
 }
  
 .item{
+    border: 1px solid eeee;
+   
+    cursor: pointer;
+}
+.item-card{
     border: 1px solid;
     padding: 10px 10px;
     margin-top: 10px;
     border-radius: 10px;
-    cursor: pointer;
+    cursor:pointer;
 }
 .item:hover{
-    background: black;
-    color: white;
+    background: rgb(235, 227, 227);
+    color: rgb(15, 15, 15);
 }
 #add-task-button{
     padding: 10px 20px;
     margin-left: 20px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.edit-task-button{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: none;
+    padding: 0px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.edit-task-button:hover{
+    background:rgb(212, 208, 202);
 }
